@@ -1,0 +1,59 @@
+.showHide-container{
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(#fa7257,#fc63a7);
+  height: 100vh;
+}
+
+.header{
+    color:#ffffff;
+  font-family: 'Roboto';
+  font-size: 64px;
+  margin-bottom: 16px;
+ font-weight:bold;
+ text-align:center;
+}
+.btn-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.firstName-btn{
+    display: flex;
+    flex-direction: column;
+
+}
+.showHide-btn{
+    color:#dd1264;
+    text-align: center;
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.name{
+     color:#000000;
+    text-align: center;
+  background-color: #fddddb;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  padding-top: 24px;
+  padding-bottom:24px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+.lastName-btn{
+    display: flex;
+    flex-direction: column;
+
+}
